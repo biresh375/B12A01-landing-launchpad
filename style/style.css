@@ -138,30 +138,32 @@ margin-bottom: 23px;
     align-items: center;
     gap: 117px;
     padding: 71px 0;
-    height: 632px;
+    height: auto;
     margin-bottom: 14px;
 
   }
   .touch_title{
     font-weight: bold;
-    font-size: 97px;
+    font-size: 90px;
     font-family: "Raleway", sans-serif;
-    width: 50%;
+    width: 528px;
   }
   .form_container{
-    width: 50%;
+    width: 497px;
      height: 490px; 
+     
     
   }
   .form_container input[type="email"], .form_container input[type="text"], .form_container textarea{
     width: 100%;
-    padding: 20px 32px;
+    padding: 20px 0 20px 32px;
     margin: 10px 0 19px 0;
     border-radius: 10px;
     color: #FFFFFF;
     border: 1px solid #D6DDED;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
   }
   .form_container input[type="submit"]{
    
@@ -248,4 +250,29 @@ margin-bottom: 23px;
     color: rgba(37, 36, 50, 0.5);
   }
 
+  /* focus section style */
+  .focus_section{
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    margin-bottom: 92px;
+    border-radius: 14px;
+    text-align: center;
+  }
+  .focus_titile{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+  }
+  .focus_discription{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+
+  .focus_img{
+    margin-top: 20px;
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+  }
 
