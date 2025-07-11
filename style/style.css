@@ -133,6 +133,8 @@ margin-bottom: 23px;
     gap: 117px;
     padding: 71px 0;
     height: 632px;
+    margin-bottom: 14px;
+
   }
   .touch_title{
     font-weight: bold;
@@ -158,4 +160,37 @@ margin-bottom: 23px;
   .form_container input[type="submit"]{
    
     width: 100%;
+  }
+  /* footer section style */
+  .about_us{
+    width: 100%;
+    height: 428px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+    
+    justify-content: center;
+    
+  }
+  .logo{
+    font-size: 100px;
+    color: #4E47FF;
+    
+    margin-bottom: 8px;
+  }
+  .subtitle{
+    color: #8987A1;
+    margin-bottom: 20px;
+  }
+  .about_us_link{
+    display: flex;
+    gap:48px ;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_us_link a{
+    color: #8987A1;
+    text-decoration: none;
+    
   }
