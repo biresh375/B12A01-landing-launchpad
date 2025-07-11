@@ -125,3 +125,37 @@ margin-bottom: 23px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* touch section style */
+  .touch_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 117px;
+    padding: 71px 0;
+    height: 632px;
+  }
+  .touch_title{
+    font-weight: bold;
+    font-size: 97px;
+    font-family: "Raleway", sans-serif;
+    width: 50%;
+  }
+  .form_container{
+    width: 50%;
+     height: 490px; 
+    
+  }
+  .form_container input[type="email"], .form_container input[type="text"], .form_container textarea{
+    width: 100%;
+    padding: 20px 32px;
+    margin: 10px 0 19px 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .form_container input[type="submit"]{
+   
+    width: 100%;
+  }
