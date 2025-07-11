@@ -192,5 +192,54 @@ margin-bottom: 23px;
   .about_us_link a{
     color: #8987A1;
     text-decoration: none;
-    
+
   }
+  /* review section style  */
+  .review_section{
+    height: 342px;
+    margin-bottom: 137px;
+  }
+  .review_title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+  }
+
+
+  .riview_containers{
+    display: flex;
+    gap: 24px;
+  }
+  .review_container{
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    width: 366.67px;
+
+  }
+  .review_title_name{
+    margin-bottom: 8px;
+    margin-top: 24px;
+  }
+  .review_discription{
+    color: rgba(37, 36, 50, 0.8);
+  }
+
+  .reviewer_container{
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .reviewer_img{
+    border-radius: 50%;
+  }
+  .reviewer_name{
+    color: rgba(37, 36, 50, 0.8);
+  }
+  .review_date{
+    color: rgba(37, 36, 50, 0.5);
+  }
+
+
